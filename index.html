@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Java Technical Documentation</title>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav id="navbar">
+            <header>Java Documentation</header>
+            <a class="nav-link" href="#Introduction">Introduction</a>
+            <a class="nav-link" href="#What_You_Should_Already_Know">What You
+                Should Already Know</a>
+            <a class="nav-link" href="#Java_and_JavaScript">Java and
+                JavaScript</a>
+            <a class="nav-link" href="#Hello_World">Hello World</a>
+            <a class="nav-link" href="#Variables">Variables</a>
+            <a class="nav-link" href="#Declaring_Variables">Declaring
+                Variables</a>
+            <a class="nav-link" href="#Global_Variables">Global Variables</a>
+            <a class="nav-link" href="#Constants">Constants</a>
+            <a class="nav-link" href="#Data_Types">Data Types</a>
+            <a class="nav-link" href="#If...Else_Statement">If...Else
+                Statement</a>
+            <a class="nav-link" href="#While_Loop">While Loop</a>
+            <a class="nav-link" href="#Functions">Functions</a>
+        </nav>
+
+        <!-- Main Content -->
+        <main id="main-doc">
+            <section id="Introduction" class="main-section">
+                <header>Introduction</header>
+                <p>Java is a high-level, class-based, object-oriented
+                    programming language.</p>
+                <p>It is designed to have as few implementation dependencies as
+                    possible, making it one of the most popular programming
+                    languages in the world.</p>
+            </section>
+
+            <section id="What_You_Should_Already_Know" class="main-section">
+                <header>What You Should Already Know</header>
+                <p>This guide assumes the following:</p>
+                <ul>
+                    <li>General understanding of programming languages</li>
+                    <li>Familiarity with object-oriented programming (OOP)</li>
+                    <li>Prior experience with basic programming languages (e.g.,
+                        Python, JavaScript)</li>
+                    <li>Understanding of loops, functions, and conditionals</li>
+                </ul>
+            </section>
+
+            <section id="Java_and_JavaScript" class="main-section">
+                <header>Java and JavaScript</header>
+                <p>While Java and JavaScript share similar names, they are
+                    fundamentally different programming languages designed for
+                    different purposes.</p>
+                <p>Java is a general-purpose, compiled language, while
+                    JavaScript is used mainly for web development.</p>
+            </section>
+
+            <section id="Hello_World" class="main-section">
+                <header>Hello World</header>
+                <p>The simplest Java program:</p>
+                <pre><code>
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+                </code></pre>
+                <p>This program prints "Hello, World!" to the console.</p>
+            </section>
+
+            <section id="Variables" class="main-section">
+                <header>Variables</header>
+                <p>Variables are containers for storing data values in Java.</p>
+                <p>In Java, you declare variables by specifying the data type
+                    followed by the variable name.</p>
+            </section>
+
+            <section id="Declaring_Variables" class="main-section">
+                <header>Declaring Variables</header>
+                <p>To declare a variable, you do so by the following syntax:</p>
+                <pre><code>int myNumber = 5;</code></pre>
+                <p>Here, <code>int</code> is the data type, and
+                    <code>myNumber</code> is the variable name.</p>
+            </section>
+
+            <section id="Global_Variables" class="main-section">
+                <header>Global Variables</header>
+                <p>Global variables are accessible from all parts of the
+                    program.</p>
+                <p>In Java, global variables are declared within a class but
+                    outside of any methods.</p>
+            </section>
+
+            <section id="Constants" class="main-section">
+                <header>Constants</header>
+                <p>In Java, constants are declared using the <code>final</code>
+                    keyword.</p>
+                <pre><code>final int MY_CONSTANT = 10;</code></pre>
+                <p>This makes sure the value of the constant cannot be
+                    modified.</p>
+            </section>
+
+            <section id="Data_Types" class="main-section">
+                <header>Data Types</header>
+                <p>Java supports various data types:</p>
+                <ul>
+                    <li>int</li>
+                    <li>double</li>
+                    <li>char</li>
+                    <li>boolean</li>
+                </ul>
+            </section>
+
+            <section id="If...Else_Statement" class="main-section">
+                <header>If...Else Statement</header>
+                <p>Conditional logic in Java uses the <code>if</code> and
+                    <code>else</code> statements.</p>
+                <pre><code>
+if (condition) {
+    // block of code
+} else {
+    // block of code
+}
+                </code></pre>
+            </section>
+
+            <section id="While_Loop" class="main-section">
+                <header>While Loop</header>
+                <p>The <code>while</code> loop runs a block of code as long as
+                    the condition is true.</p>
+                <pre><code>
+while (condition) {
+    // code to be executed
+}
+                </code></pre>
+            </section>
+
+            <section id="Functions" class="main-section">
+                <header>Functions</header>
+                <p>Functions in Java are declared within classes using methods.
+                    For example:</p>
+                <pre><code>
+public void myFunction() {
+    // code to execute
+}
+                </code></pre>
+            </section>
+        </main>
+    </body>
+</html>
